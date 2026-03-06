@@ -13,7 +13,8 @@ import tempfile
 import base64
 import re
 from pathlib import Path
-
+from dotenv import load_dotenv
+load_dotenv()
 import google.generativeai as genai
 from docx import Document
 from docx.shared import Pt, RGBColor, Inches
@@ -38,7 +39,7 @@ TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]   # From @BotFather
 GEMINI_API_KEY  = os.environ["GEMINI_API_KEY"]  # From aistudio.google.com (free)
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 EXTRACTION_PROMPT = """You are a precise document extraction assistant.
 
