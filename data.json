@@ -1,0 +1,58 @@
+{
+  "settings": {
+    "max_file_mb": 100,
+    "cooldown_sec": 10,
+    "daily_limit": 20,
+    "gemini_model": "gemini-3.1-flash-lite-preview",
+    "whitelist_only": true,
+    "bot_enabled": true,
+    "welcome_msg": "\ud83d\udc4b Hello! Send me a *PDF* or *image* and I'll extract the content into a *.docx* file.",
+    "llamaparse_on": false
+  },
+  "users": {
+    "944493382": {
+      "name": "Himanshu",
+      "username": "Him14867",
+      "allowed": true,
+      "blocked": false,
+      "joined": "2026-03-07T21:35:19.975347",
+      "last_seen": "2026-03-24T22:45:44.423230",
+      "requests": 11,
+      "failed_auth": 0,
+      "note": "",
+      "last_req_date": "2026-03-24",
+      "today_count": 2
+    },
+    "1412751278": {
+      "name": "PRIYANSHU",
+      "username": "Prajapati0123456",
+      "allowed": true,
+      "blocked": false,
+      "joined": "2026-03-07T21:41:26.424742",
+      "last_seen": "2026-03-12T21:33:20.936181",
+      "requests": 1,
+      "failed_auth": 0,
+      "note": "",
+      "last_req_date": "2026-03-12",
+      "today_count": 1
+    }
+  },
+  "stats": {
+    "total": 12,
+    "success": 9,
+    "failed": 3,
+    "by_date": {
+      "2026-03-07": 3,
+      "2026-03-08": 3,
+      "2026-03-12": 3,
+      "2026-03-17": 1,
+      "2026-03-24": 2
+    },
+    "by_user": {
+      "944493382": 11,
+      "1412751278": 1
+    }
+  },
+  "broadcasts": [],
+  "key_stats": {}
+}
